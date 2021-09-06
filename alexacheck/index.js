@@ -23,6 +23,9 @@ CreateCSS.innerHTML = `
     color: white;
     border-radius:5px 5px 5px 5px
 }
+.darkMode #inputDomain {
+    color: #2d2d30
+}
 .darkMode #alexaChecker {
     background: #2d2d30;
     color: #fff
