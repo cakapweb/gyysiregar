@@ -25,17 +25,16 @@ CreateCSS.innerHTML = `
 }
 .darkMode #alexaChecker {
     background: #2d2d30;
+    color: #fff
 }
 `;
 document.body.append(CreateCSS);
 var dataHasil = 0;
-if (document.getElementById('alexachecker-start')) {
-    document.getElementById('alexachecker-start').innerHTML = `
-    <div id="alexaChecker">
+if (document.getElementById('alexaChecker')) {
+    document.getElementById('alexaChecker').innerHTML = `
  <div><input id='inputDomain' placeholder='Masukkan Domain Web Kamu..' /></div>
  <div><button id='chekAlexa'>Chek Peringkat!</button></div>
  <div>Peringkat Alexa Web : <span id='outputAlexa'>-</span></div>
- </div>
 `;
     document.getElementById('chekAlexa').addEventListener('click', function () {
         var dataUrl = document.getElementById('inputDomain').value;
