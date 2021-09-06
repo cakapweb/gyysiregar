@@ -12,6 +12,9 @@ CreateCSS.innerHTML = `
 	padding: 20px;
 	border: 1px solid rgba(0, 0, 0, 0.05)
 }
+.darkMode #cssminifier textarea {
+	color: #2596BE
+}
 #cssminifier textarea {
 	width: 100%;
 	height: 240px;
